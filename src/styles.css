@@ -25,3 +25,30 @@ header>p {
     font-size: 50px;
     margin-left: 60px;
 }
+
+.meme-number-uno {
+    position: relative;
+    border: 3px solid #73ad21;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.meme-number-uno p {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 40px;
+}
+
+#top-p {
+    margin: 5px auto;
+    position: absolute;
+    color: #ffffff;
+}
+
+#bottom-p {
+    color: #ffffff;
+    bottom: 10px;
+    position: absolute;
+    margin: 5px auto;
+}
